@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>So... you want to use GitHub more?</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+	<style>
+		.reveal h1,
+		.reveal h2,
+		.reveal h3,
+		.reveal h4,
+		.reveal h4,
+		.reveal h5,
+		.reveal h6 {
+			text-transform: initial;
+		}
+
+		.reveal h6 {
+			font-size-adjust: 0.4 !important;
+			color: #d1d1d1 !important;
+		}
+	</style>
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+					# So... you want to use GitHub more?
+
+					### Using GitHub for your managing your workflow code and environment files
+
+					###### TUG April 12, 2022 | Daryn White [@darynwhite](https://github.com/darynwhite)
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					# Reasons for and against using GitHub
+				</textarea>
+				<section data-markdown>
+					<textarea data-template>
+						### Against
+						- Requires a bit of effort
+							- Moving / creating the repositories and publishing them
+						- Maintaining the repositories through time
+						- GitHub can feel intimidating at first
+						- Sharing may not work across all environments
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### For
+						- Using `git` creates a history
+						- GitHub is an immediate offsite back up with a push
+						- Changing computers becomes more trivial
+						- Private repos are available for your individual account
+					</textarea>
+				</section>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					# Title
+				</textarea>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
